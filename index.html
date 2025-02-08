@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!--?========== Navbar ==========-->
+    <section class="flex lg:px-20 justify-between py-4 text-[#3E3E3E] px-4 ">
+
+        <div>
+            <h3 class="lg:text-2xl text-lg font-semibold">Abacus Convention Center</h3>
+        </div>
+        <!-- Menu -->
+        <div class="hidden lg:block">
+            <ul class="flex lg:gap-4 font-semibold lg:text-xl text-lg">
+                <li class="hover:text-cyan-500"><a href="#">Home</a></li>
+                <li class="hover:text-cyan-500"><a href="#">About Us</a></li>
+                <li class="hover:text-cyan-500"><a href="#">Contact</a></li>
+                <li class="hover:text-cyan-500"><a href="#">Subscribe</a></li>
+            </ul>
+        </div>
+        <!-- phone -->
+        <div class="lg:hidden">
+            <span class="text-2xl "><i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+
+    </section>
+
+    <!-- ?========Banner============= -->
+    <section>
+        <div class="h-screen bg-[url('./images/bgBanner.jpeg')] bg-cover bg-center text-white  ">
+
+            <div class="lg:w-2/5 mx-auto  ">
+                <div class="w-full flex items-center justify-center h-screen    ">
+                    <div class="lg:space-y-3 space-y-1">
+                        <h1 class="text-5xl text-center font-semibold ">The perfect venue for your
+                            next event</h1>
+                        <p class="text-lg text-center">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit
+                        </p>
+                        <div class="flex justify-center items-center">
+
+                            <button
+                                class="lg:py-3 py-2 px-4 lg:px-8 text-xl font-semibold bg-cyan-500 text-white rounded-xl hover:bg-transparent hover:border hover:text-purple-500    ">Book
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ?========Moment Section========-->
+    <section class="lg:pb-10 pb-5 lg:py-14 py-6 lg:mx-20 mx-2  lg:flex  lg:gap-4 justify-between ">
+        <div class="w-full ">
+            <!-- image -->
+            <div class="lg:w-[600px]  "><img src="./images/moment.jpeg" alt=""></div>
+        </div>
+        <!-- information -->
+        <div class="flex item-center">
+            <div class="lg:mt-auto lg:pb-24 lg:space-y-1 space-y-3">
+                <h1 class="text-center text-4xl lg:text-4xl font-bold font-sans lg:pb-8  ">Every moment is Precious
+                </h1>
+                <p class=" text-xl lg:text-justify text-justify px-5 lg:px-0 text-black lg:leading-relaxed">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet..</p>
+                <div class="flex justify-center">
+                    <button
+                        class="lg:py-3 py-2 px-4 lg:px-8 lg:text-xl text-xl font-semibold bg-cyan-500 text-white rounded-xl hover:bg-transparent hover:border hover:text-purple-500 ">
+                        Explore our album
+                </div>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ?========Moment Section========-->
+
+    <section class="lg:px-20 px-5 lg:pb-10 lg:pb-2">
+        <h1 class="text-black font-bold text-center lg:text-4xl text-2xl lg:pb-7 ">Our Package</h1>
+        <!-- card -->
+        <div class="grid lg:grid-cols-4 grid-cols-1 lg:gap-5 ">
+
+
+            <div>
+                <!-- card1 -->
+                <div
+                    class="hover:bg-cyan-500 transform transition-all duration-300 hover:rounded-lg lg:hover:py-4 bg-pink-100 lg:py-2 ">
+                    <div class="space-y-1 hover:bg-cyan-500 lg:px-3">
+                        <h1 class="text-2xl font-bold lg:pb-2 pb-1">$300</h1>
+                        <p class="text-xl font-semibold">Business fair</p>
+                        <p>For most businesses event
+                            like book fair, craft fair.
+                        </p>
+                        <!-- icon1 -->
+                        <div class="flex item-center ">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">limited space access</p>
+                        </div>
+                        <!-- icon 2-->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Secuirty facility</p>
+                        </div>
+                        <!-- icon3 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">event support</p>
+                        </div>
+                        <!-- icon4 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Decoration design</p>
+                        </div>
+                        <!-- icon5 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Per day bill</p>
+                        </div>
+                    </div>
+                    <div class="text-xl w-1/2 mx-auto lg:px-3 px-2 my-2 bg-transparent font-semibold hover:bg-cyan-500">
+                        Chose plan</div>
+                </div>
+            </div>
+            <div>
+                <!-- card2 -->
+                <div
+                    class="hover:bg-cyan-500 transform transition-all duration-300 hover:rounded-lg lg:hover:py-4 bg-pink-100 lg:py-2 ">
+                    <div class="space-y-1 hover:bg-cyan-500 lg:px-3">
+                        <h1 class="text-2xl font-bold lg:pb-2 pb-1">$300</h1>
+                        <p class="text-xl font-semibold">Business fair</p>
+                        <p>For most businesses event
+                            like book fair, craft fair.
+                        </p>
+                        <!-- icon1 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">limited space access</p>
+                        </div>
+                        <!-- icon 2-->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Secuirty facility</p>
+                        </div>
+                        <!-- icon3 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">event support</p>
+                        </div>
+                        <!-- icon4 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Decoration design</p>
+                        </div>
+                        <!-- icon5 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Per day bill</p>
+                        </div>
+                    </div>
+                    <div class="text-xl w-1/2 mx-auto lg:px-3 px-2 my-2 bg-transparent font-semibold hover:bg-cyan-500">
+                        Chose plan</div>
+                </div>
+            </div>
+            <div>
+                <!-- card3 -->
+                <div
+                    class="hover:bg-cyan-500 transform transition-all duration-300 hover:rounded-lg lg:hover:py-4 bg-pink-100 lg:py-2 ">
+                    <div class="space-y-1 hover:bg-cyan-500 lg:px-3">
+                        <h1 class="text-2xl font-bold lg:pb-2 pb-1">$300</h1>
+                        <p class="text-xl font-semibold">Business fair</p>
+                        <p>For most businesses event
+                            like book fair, craft fair.
+                        </p>
+                        <!-- icon1 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">limited space access</p>
+                        </div>
+                        <!-- icon 2-->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Secuirty facility</p>
+                        </div>
+                        <!-- icon3 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">event support</p>
+                        </div>
+                        <!-- icon4 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Decoration design</p>
+                        </div>
+                        <!-- icon5 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Per day bill</p>
+                        </div>
+                    </div>
+                    <div class="text-xl w-1/2 mx-auto lg:px-3 px-2 my-2 bg-transparent font-semibold hover:bg-cyan-500">
+                        Chose plan</div>
+                </div>
+            </div>
+            <div>
+                <!-- card4 -->
+                <div
+                    class="hover:bg-cyan-500 transform transition-all duration-300 hover:rounded-lg lg:hover:py-4 bg-pink-100 lg:py-2 ">
+                    <div class="space-y-1 hover:bg-cyan-500 lg:px-3">
+                        <h1 class="text-2xl font-bold lg:pb-2 pb-1">$300</h1>
+                        <p class="text-xl font-semibold">Business fair</p>
+                        <p>For most businesses event
+                            like book fair, craft fair.
+                        </p>
+                        <!-- icon1 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">limited space access</p>
+                        </div>
+                        <!-- icon 2-->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Secuirty facility</p>
+                        </div>
+                        <!-- icon3 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">event support</p>
+                        </div>
+                        <!-- icon4 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Decoration design</p>
+                        </div>
+                        <!-- icon5 -->
+                        <div class="flex item-center">
+                            <p class="inline-flex items-center  ps-1   text-black text-xs font-bold  rounded-full ">
+                                <i class="fa-solid text-lg fa-check mr-2"></i>
+                            </p>
+                            <p class="">Per day bill</p>
+                        </div>
+                    </div>
+                    <div class="text-xl w-1/2 mx-auto lg:px-3 px-2 my-2 bg-transparent font-semibold hover:bg-cyan-500">
+                        Chose plan</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ?========Client Says========-->
+    <section class="flex justify-center lg:py-14 py-4">
+        <div class="lg:pb-10 pb-5 lg:px-20 px-4 grid lg:grid-cols-3 grid-cols-1 lg:gap-10 space-y-2 lg:space-y-0">
+            <!-- clien1 -->
+            <div>
+                <div
+                    class="lg:space-y- space-y-1 text-center shadow-xl shadow-gray lg:px-6 lg:py-4 px-3 py-3 hover:bg-cyan-500 transform transition-all duration-300 hover:text-white rounded-lg">
+                    <p class="lg:pb-2 w-5/6 text-lg">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.
+                    </p>
+                    <div class="flex justify-center pb-1">
+                        <img class="h-[100px] rounded-full" src="./images/client1.png" alt="">
+                    </div>
+                    <h1 class="lg:text-lg  font-semibold">Regina Milas</h1>
+                    <h2 class="text-gray">Banker</h2>
+                </div>
+            </div>
+            <!-- clien2 -->
+            <div>
+                <div
+                    class="lg:space-y- space-y-1 text-center shadow-xl shadow-gray lg:px-6 lg:py-4 px-3 py-3 hover:bg-cyan-500 transform transition-all duration-300 hover:text-white rounded-lg">
+                    <p class="lg:pb-2 w-5/6 text-lg">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.
+                    </p>
+                    <div class="flex justify-center pb-1">
+                        <img class="h-[100px] rounded-full" src="./images/client2.png" alt="">
+                    </div>
+                    <h1 class="lg:text-lg  font-semibold">Regina Milas</h1>
+                    <h2 class="text-gray">Banker</h2>
+                </div>
+            </div>
+
+            <!-- clien3 -->
+            <div>
+                <div
+                    class="lg:space-y- space-y-1 text-center shadow-xl shadow-gray lg:px-6 lg:py-4 px-3 py-3 hover:bg-cyan-500 transform transition-all duration-300 hover:text-white rounded-lg">
+                    <p class="lg:pb-2 w-5/6 text-lg">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.
+                    </p>
+                    <div class="flex justify-center pb-1">
+                        <img class="h-[100px] rounded-full" src="./images/client3.png" alt="">
+                    </div>
+                    <h1 class="lg:text-lg  font-semibold">Regina Milas</h1>
+                    <h2 class="text-gray">Banker</h2>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ?========Frequently Asked Questions========-->
+    <section class="lg:px-20 px-4 text-gray-600 lg:mb-20 mb-5 ">
+        <h1 class="text-4xl font-semibold text-black text-center lg:pb-20  ">Frequently Asked Questions</h1>
+        <div class="lg:flex gap-10 my-2 lg:my-0 ">
+            <div class=" lg:px-4 py-3 lg:space-y-10 space-y-4">
+                <div class="border lg:px-4 py-3 lg:space-y-3 ">
+                    <div class="flex gap-5">
+                        <h1 class="lg:text-xl font-semibold text-gray-600">What’s the difference between event design
+                            and
+                            event planning?
+                        </h1>
+                        <span><i class="fa-solid fa-angle-up text-xl  "></i></span>
+                    </div>
+                    <p class="text-gray-500">Event design and event planning work hand in hand to deliver a successful
+                        event.Events by Knight
+                        offer tailor made events. This means we incorporate both event design and event planning to
+                        create
+                        that perfect event.</p>
+                </div>
+                <div class="flex gap-5 border lg:px-4 py-3">
+                    <h1 class="lg:text-xl font-semibold text-gray-600">
+                        How early do we need to start planning an event
+                    </h1>
+                    <span><i class="fa-solid fa-angle-down text-xl  "></i></span>
+                </div>
+                <div class="flex gap-5 border lg:px-4 py-3 border lg:px-4 py-3">
+                    <h1 class="lg:text-xl font-semibold text-gray-600">
+                        What is your refund and cancellation policy?
+                    </h1>
+                    <span><i class="fa-solid fa-angle-down text-xl  "></i></span>
+                </div>
+                <div class="flex gap-5 border lg:px-4 py-3">
+                    <h1 class="lg:text-xl font-semibold text-gray-600">
+                        How do you keep budgets on track? </h1>
+                    <span><i class="fa-solid fa-angle-down text-xl  "></i></span>
+                </div>
+
+            </div>
+            <!-- img -->
+            <div class="w-full flex lg:mt-5">
+                <img class="w-[600px] lg:h-[400px]" src="./images/asked.jpeg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ?========Frequently Asked Questions========-->
+    <section class="bg-[#0B0D17] text-white lg:px-20 lg:py-20 px-10 py-10 lg:pb-20 pb-10">
+        <div class="lg:flex justify-between">
+            <div class="flex item-center">
+                <h1 class="my-auto w-full ">© 2020 bike. All rights reserved</h1>
+            </div>
+            <div class="space-y-3">
+                <h1>Get the App</h1>
+                <div class="border border-gray-100 flex justify-between px-2 py-2 rounded-lg ">
+                    <span><i class="fa-brands fa-apple lg:text-3xl text-2xl"></i> <!-- Apple Logo -->
+                    </span>
+                    <p>Download the <br><span>App store</span></p>
+                </div>
+                <div class="border border-gray-100  px-4 py-2 flex justify-between px-2 py-2 rounded-lg ">
+                    <span> <i class="fa-brands fa-google-play mr-2 lg:text-3xl text-2xl"></i></span>
+                    <p>Get on <br><span>Play store</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
